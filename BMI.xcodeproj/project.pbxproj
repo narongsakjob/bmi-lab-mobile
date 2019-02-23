@@ -14,6 +14,11 @@
 		77C0BD0D220ADAF800000DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C0BD0B220ADAF800000DC2 /* LaunchScreen.storyboard */; };
 		77C0BD18220ADAF800000DC2 /* BMITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0BD17220ADAF800000DC2 /* BMITests.swift */; };
 		77C0BD23220ADAF800000DC2 /* BMIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0BD22220ADAF800000DC2 /* BMIUITests.swift */; };
+		77C0BD33220C12C000000DC2 /* Screen Shot 2562-02-07 at 14.04.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0BD32220C12C000000DC2 /* Screen Shot 2562-02-07 at 14.04.49.png */; };
+		77C0BD40220C163B00000DC2 /* OverWeight.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0BD3C220C163A00000DC2 /* OverWeight.png */; };
+		77C0BD41220C163B00000DC2 /* Healthy.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0BD3D220C163A00000DC2 /* Healthy.png */; };
+		77C0BD42220C163B00000DC2 /* UnderWeight.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0BD3E220C163B00000DC2 /* UnderWeight.png */; };
+		77C0BD43220C163B00000DC2 /* Obese.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0BD3F220C163B00000DC2 /* Obese.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		77C0BD1E220ADAF800000DC2 /* BMIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C0BD22220ADAF800000DC2 /* BMIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIUITests.swift; sourceTree = "<group>"; };
 		77C0BD24220ADAF800000DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C0BD32220C12C000000DC2 /* Screen Shot 2562-02-07 at 14.04.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2562-02-07 at 14.04.49.png"; path = "../../../../Downloads/Screen Shot 2562-02-07 at 14.04.49.png"; sourceTree = "<group>"; };
+		77C0BD3C220C163A00000DC2 /* OverWeight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OverWeight.png; path = ../../../../Downloads/OverWeight.png; sourceTree = "<group>"; };
+		77C0BD3D220C163A00000DC2 /* Healthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Healthy.png; path = ../../../../Downloads/Healthy.png; sourceTree = "<group>"; };
+		77C0BD3E220C163B00000DC2 /* UnderWeight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UnderWeight.png; path = ../../../../Downloads/UnderWeight.png; sourceTree = "<group>"; };
+		77C0BD3F220C163B00000DC2 /* Obese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Obese.png; path = ../../../../Downloads/Obese.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		77C0BD01220ADAF500000DC2 /* BMI */ = {
 			isa = PBXGroup;
 			children = (
+				77C0BD3D220C163A00000DC2 /* Healthy.png */,
+				77C0BD3F220C163B00000DC2 /* Obese.png */,
+				77C0BD3C220C163A00000DC2 /* OverWeight.png */,
+				77C0BD3E220C163B00000DC2 /* UnderWeight.png */,
+				77C0BD32220C12C000000DC2 /* Screen Shot 2562-02-07 at 14.04.49.png */,
 				77C0BD02220ADAF500000DC2 /* AppDelegate.swift */,
 				77C0BD04220ADAF500000DC2 /* ViewController.swift */,
 				77C0BD06220ADAF500000DC2 /* Main.storyboard */,
@@ -229,7 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C0BD33220C12C000000DC2 /* Screen Shot 2562-02-07 at 14.04.49.png in Resources */,
 				77C0BD0D220ADAF800000DC2 /* LaunchScreen.storyboard in Resources */,
+				77C0BD43220C163B00000DC2 /* Obese.png in Resources */,
+				77C0BD42220C163B00000DC2 /* UnderWeight.png in Resources */,
+				77C0BD40220C163B00000DC2 /* OverWeight.png in Resources */,
+				77C0BD41220C163B00000DC2 /* Healthy.png in Resources */,
 				77C0BD0A220ADAF800000DC2 /* Assets.xcassets in Resources */,
 				77C0BD08220ADAF500000DC2 /* Main.storyboard in Resources */,
 			);
